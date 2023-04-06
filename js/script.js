@@ -85,11 +85,11 @@ async function commentRenderFunc(id, element) {
   }
 }
 
-import { Api } from "./demo.js";
+import { Api } from "./demo.js"
 
-console.log( await Api.GET("user/1"));
-console.log( await Api.GET("post/1"));
-console.log( await Api.GET("comments/1"));
+// console.log( await Api.GET("user"));
+// console.log( await Api.GET("post/1"));
+// console.log( await Api.GET("comments/1"));
 
 let postData = {
   title: "hello world" ,
